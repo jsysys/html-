@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멋사 지원서</title>
+</head>
+<body>
+    <img src="멋사과제사진.png" width="120 " height="100">
+    
+    <h1>연세대학교 멋쟁이사자처럼 12기 지원서</h1>
+
+    <p>
+        내 아이디어를 내 손으로 구현해보고 싶다면 주목!<br/>
+        <em>연세대학교 멋쟁이사자처럼</em>에서 12기 아기사자를 모집합니다.<br/>
+        코딩 교육을 통해 자신의 아이디어를 서비스로 구현하고 나아가 창업을 꿈꾸는 분들의 많은 지원 부탁드립니다.
+    </p>
+    <hr/>
+
+    <h2>1. 모집일정</h2>
+    <ul>
+        <li>서류 제출: 2/16 (금) 09:00~2/23 (금)</li>
+        <li>서류 합격자 발표: 2/26 (월) 오후 합격자 개별 공지</li>
+        <li>온라인 면접: 2/28 (수) ~ 2/29 (목)</li>
+        <li>최종 합격자 발표:3/2 (토) 오후 합격자 개별 공지</li>
+    </ul>
+    
+    <h2>2. 문의사항</h2>
+    <ul>
+        <li>오픈채팅 <a href="https://open.kakao.com/o/sjjH1Y8f" target="_blank">바로가기</a></li>
+        <li>인스타그램 <a href="https://www.instagram.com/likelion_yonsei?igsh=MTh0c2pqYXBuZHB3Ng==" target="_blank">@likelion.yonsei</a></li>
+    </ul>
+    
+    <p><b><u>서류 제출 기간을 꼭 확인하신 후 기간 내 제출 부탁드립니다.</u></b></p>
+    <hr/><br/>
+    
+    <form>
+        <fieldset>
+            <legend><b>지원자 정보</b></legend>
+            <label for="name">이름</label>
+            <input type="text" id="name" required /><br/>
+
+            <label for="number">학번</label>
+            <input type="text" id="number" required /><br/>
+
+            <label for="birth">생년월일</label>
+            <input type="date" id="birth" required /><br/>
+
+            <label for="semester">학년 및 학기</label>
+            <select id="학년 및 학기" required >
+                <option value="1">1-1</option>
+                <option value="2">1-2</option>
+                <option value="3">2-1</option>
+                <option value="4">2-2</option>
+                <option value="5">3-1</option>
+                <option value="6">3-2</option>
+                <option value="7">4-1</option>
+                <option value="8">4-2</option>
+            </select><br/>
+
+            <label for="email">이메일</label>
+            <input type="email" id="email" required /><br/>
+
+            <label for="phone">휴대폰 번호</label>
+            <input type="text" id="phone" required /><br/>
+        </fieldset>
+        <br/>
+
+        <fieldset>
+            <legend><b>트랙 선택/ 정기 조공 안내</b></legend>
+                <p>지원하고자 하는 트랙을 선택해주시기 바랍니다. (중복 선택 불가)</p>
+                    
+                    <label for="front">프론트엔드</label>
+                    <input type="radio" id="front" name="pos" required />
+
+                    <label for="back">백엔드</label>
+                    <input type="radio" id="back" name="pos" required />
+
+                <p>멋쟁이사자처럼 학회원은 매달 최소 10만원씩 운영진에게 조공을 바쳐야 합니다.<br/>
+                얼마를 내시겠습니까?</p>
+
+                    <label for="money">조공 금액:</label>
+                    <input type="number" value="10" id="money" min="10" max="50" step="5" required />
+                    <label>만원 (최대 50만원)</label>
+        </fieldset>
+        <br/>
+
+        <fieldset>
+            <legend><b>문항</b>/b></legend>
+                <p>1. 지원동기</p>
+                <textarea id="text1" rows="4" required ></textarea>
+
+                <p>2. 협업경험</p>
+                <textarea id="text2" rows="4" required ></textarea>
+
+                <p>3. 만들고 싶은 서비스</p>
+                <textarea id="text3" rows="4" placeholder="당신의 창의성을 맘껏 뽐내주세요!" required ></textarea>
+
+                <p>4. 코딩 공부에 얼마나 시간을 투자할 생각이신가요?</p>
+                <textarea id="text4" rows="2" required ></textarea>
+
+                <p>5. 포트폴리오가 있다면 첨부해주세요. (선택사항)</p>
+                <input type="file">
+        </fieldset>
+        <br/>
+
+        <fieldset>
+            <legend><b>비대면 면접 참석 가능 시간</b></legend>
+            <p>가능한 시간을 <i>모두</i> 체크해주세요!</p>
+                <ol>
+                    <li><b>2/28</b></li>
+                        <label for="time1">10</label>
+                        <input type="checkbox" id="time1" name="choice1">
+
+                        <label for="time2">11</label>
+                        <input type="checkbox" id="time2" name="choice1">
+
+                        <label for="time3">12</label>
+                        <input type="checkbox" id="time3" name="choice1">
+
+                        <label for="time4">1</label>
+                        <input type="checkbox" id="time4" name="choice1">
+
+                        <label for="time5">2</label>
+                        <input type="checkbox" id="time5" name="choice1">
+
+                        <label for="time6">3</label>
+                        <input type="checkbox" id="time6" name="choice1">
+
+                    <li><b>2/29</b></li>
+                        <label for="time7">10</label>
+                        <input type="checkbox" id="time7" name="choice2">
+
+                        <label for="time8">11</label>
+                        <input type="checkbox" id="time8" name="choice2">
+
+                        <label for="time9">12</label>
+                        <input type="checkbox" id="time9" name="choice2">
+
+                        <label for="time10">1</label>
+                        <input type="checkbox" id="time10" name="choice2">
+
+                        <label for="time11">2</label>
+                        <input type="checkbox" id="time11" name="choice2">
+
+                        <label for="time12">3</label>
+                        <input type="checkbox" id="time12" name="choice2">
+                </ol>
+        </fieldset>
+        <br/>
+
+        <button type="submit">제출하기</button>
+        <button type="reset">취소하기</button>
+
+
+    </form>
+
+</body>
+</html>
